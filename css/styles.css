@@ -1,0 +1,48 @@
+/* styles.css */
+
+/* Estilos gerais */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+}
+
+/* Estilos para home */
+.home {
+    background-color: #015e1d;
+    color: white;
+}
+
+/* Estilos para Alunos */
+.alunos {
+    background-color: #f3a813;
+}
+
+/* Estilos para Professores */
+.professores {
+    background-color: #030303;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+}
+
+/* Estilos para Administração */
+.administracao {
+    background-color: #797979;
+    color: white;
+}
+
+/* Estilos para Visitantes Externos */
+.visitantes {
+    background-color: #73f76e;
+}
+
+.nav-link {
+    color: white;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    /* Outros estilos responsivos conforme necessário */
+}
